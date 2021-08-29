@@ -1,3 +1,3 @@
 # linkawesome
-A collection of great links and source of online courses, engineering stuffs, academic journals, ebooks, and more!
-Feel free to fork or pull any requests! 
+
+A web consists collections of (mostly) tech-related links and sources made using HTML5, CSS3, JavaScript, and JQuery library.
