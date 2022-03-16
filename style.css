@@ -117,14 +117,13 @@ main {
 
 .content-item {
   filter: drop-shadow(0 2px 2px rgba(255, 248, 248, 0.12)),
-					drop-shadow(0 3px 1px rgba(255, 255, 255, 0.14)),
-					drop-shadow(0 1px 5px rgba(255, 255, 255, 0.12));
+	  drop-shadow(0 3px 1px rgba(255, 255, 255, 0.14)),
+	  drop-shadow(0 1px 5px rgba(255, 255, 255, 0.12));
   margin-top: 1em;
   font-family:'Nanum Gothic', sans-serif; 
   width: 100%;
   height: 11rem;
   cursor: pointer;
-  
 }
 
 h2 {
@@ -157,31 +156,35 @@ h2 {
   transform: scale(1.030);
   transition: 475ms;
 }
+
 .oc {
   background-color: #4D194D;
 }
+
 .content-item.oc:hover {
   background-color: #5c235c;
 }
+
 .engineering {
   background-color: #3E1F47;
 }
+
 .content-item.engineering:hover {
   background-color: #4e2758;
 }
 
-
 .journals {
   background-color: #312244;
 }
+
 .content-item.journals:hover {
   background-color: #392850;
 }
 
-
 .ebooks {
   background-color: #272640;
 }
+
 .content-item.ebooks:hover {
   background-color: #2e2d4d;
 }
@@ -189,6 +192,7 @@ h2 {
 .onlinetools {
   background-color: #212F45;
 }
+
 .content-item.onlinetools:hover {
   background-color: #273752;
 }
@@ -196,6 +200,7 @@ h2 {
 .resources {
   background-color: #1B3A4B;
 }
+
 .content-item.resources:hover {
   background-color: #20475c;
 }
@@ -203,6 +208,7 @@ h2 {
 .fontsicons {
   background-color: #144552;
 }
+
 .content-item.fontsicons:hover {
   background-color: #1a5363;
 }
@@ -210,6 +216,7 @@ h2 {
 .playgrounds {
   background-color: #0B525B;
 }
+
 .content-item.playgrounds:hover {
   background-color: #11636e;
 }
@@ -217,6 +224,7 @@ h2 {
 .technews {
   background-color: #065A60;
 }
+
 .content-item.technews:hover {
   background-color: #086e75;
 }
@@ -224,6 +232,7 @@ h2 {
 .coding {
   background-color: #006466;
 }
+
 .content-item.coding:hover {
   background-color: #007a7c;
 }
@@ -233,11 +242,10 @@ h2 {
   .desc-topics-hr {
     display: none;
   }
+	
   .first-container {
     height: auto;
   }
-
-  
 }
 
 @media only screen and (min-width: 730px) {
@@ -246,7 +254,7 @@ h2 {
       grid-template-columns: repeat(3, 1fr);
       gap: 1rem;
    }
-
+	
    .content-item {
      margin: 0;
    }
@@ -256,6 +264,7 @@ h2 {
      margin-top: 3rem;
      font-size: 2.5rem;
    }
+	
    .desc-topics-hr {
      display: none;
    }
@@ -275,14 +284,13 @@ h2 {
    margin-top: 1.2rem;
    font-size: 1rem;
   }
-  
 }
 
 @media screen and (min-width: 1050px) {
-
   .second-container {
     display: flex;
   }
+	
   .first-container {
     height: 13.5rem;
   }
@@ -320,46 +328,51 @@ h2 {
     border: 0 #4D194D solid;
     border-right-width: 5px;
   }
+	
   #tpc2:active {
     border: 0 #3E1F47 solid;
     border-right-width: 5px;
   }
+	
   #tpc3:active {
     border: 0 #312244 solid;
     border-right-width: 5px;
   }
+	
   #tpc4:active {
     border: 0 #272640 solid;
     border-right-width: 5px;
   }
+	
   #tpc5:active {
     border: 0 #212F45 solid;
     border-right-width: 5px;
   }
+	
   #tpc6:active {
     border: 0 #1B3A4B solid;
     border-right-width: 5px;
   }
+	
   #tpc7:active {
     border: 0 #144552 solid;
     border-right-width: 5px;
   }
+	
   #tpc8:active {
     border: 0 #0B525B solid;
     border-right-width: 5px;
   }
+	
   #tpc9:active {
     border: 0 #065A60 solid;
     border-right-width: 5px;
   }
+	
   #tpc10:active {
     border: 0 #006466 solid;
     border-right-width: 5px;
   }
-
-
-  
-  
 }
 
 @media screen and (min-width:1420px) {
@@ -381,15 +394,17 @@ h2 {
   bottom: 15px;
   cursor: pointer;
 }
+
 #scrollToTopBtn:hover {
   background-color: #b66e7a;
   transform: scale(1.1);
   transition: 400ms;
-  
 }
+
 #scrollToTopBtn:active {
   background-color:#7e3742 ;
 }
+
 span {
   color: black;
 }
@@ -399,6 +414,7 @@ span {
   min-height: 3.5rem;
   background-color: #1D1D1D;
 }
+
 .footer-content {
   padding-top: 1em;
   display: flex;
@@ -411,9 +427,11 @@ span {
 .footer-link {
   text-decoration: none;
 }
+
 .footer-link:hover {
   color: rgba(255, 66, 66, 0.644);
 }
+
 ::-webkit-scrollbar {
   width: 10px;
   height: 30px;
